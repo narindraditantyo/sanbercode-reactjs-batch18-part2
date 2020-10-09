@@ -1,48 +1,13 @@
 import React from 'react';
 import './App.css';
+import Tugas9 from './Tugas-9/tugas9'
+import Tugas10 from './Tugas-10/tugas10'
 
 function App() {
-	return (
-		<div className="App">
-			<form>
-				<h1>Form Pembelian Buah</h1>
-				<ul className="FormContainer">
-					<li className="FormList">
-						<label>Nama Pelanggan</label>
-						<input type="text" />
-					</li>
-					<li className="FormList">
-						<label>Daftar Item</label>
-						<div className="CheckboxList">
-							<ul className="CheckboxGroup">
-								<li>
-									<input type="checkbox" name="buah" />
-									<label>Semangka</label>
-								</li>
-								<li>
-									<input type="checkbox" name="buah" />
-									<label>Jeruk</label>
-								</li>
-								<li>
-									<input type="checkbox" name="buah" />
-									<label>Nanas</label>
-								</li>
-								<li>
-									<input type="checkbox" name="buah" />
-									<label>Salak</label>
-								</li>
-								<li>
-									<input type="checkbox" name="buah" />
-									<label>Anggur</label>
-								</li>
-							</ul>
-						</div>
-					</li>
-					<li className="FormList">
-						<button type="submit">Kirim</button>
-					</li>
-				</ul>
-			</form>
+	return(
+		<div>
+			<Tugas9 />
+			<Tugas10 />
 		</div>
 	);
 }
